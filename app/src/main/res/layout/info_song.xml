@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp"
+        android:text="Titulo de la cancion"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/autor"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/titulo"
+        android:layout_marginTop="59dp"
+        android:text="Autor de la cancion"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+</RelativeLayout>

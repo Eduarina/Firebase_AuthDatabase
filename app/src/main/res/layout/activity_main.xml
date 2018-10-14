@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesion"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo Electronico:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingTop="40dp"
+        android:paddingLeft="60dp"
+        />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:paddingTop="25dp"
+        android:ems="11"
+        android:text="ejemplo.123@decorreo.com"
+        android:inputType="text"
+        android:textColor="@android:color/darker_gray"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingTop="30dp"
+        android:paddingLeft="60dp"
+        />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:paddingTop="25dp"
+        android:ems="11"
+        android:text="Escribe tu contraseña"
+        android:inputType="text"
+        android:textColor="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="15dp"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boton2"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="15dp"
+        android:text="REGISTRATE"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        />
+
+</LinearLayout>
